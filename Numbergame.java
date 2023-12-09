@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class NumberGame {
+public class Numbergame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -40,7 +40,6 @@ public class NumberGame {
             if (!guessedCorrectly) {
                 System.out.println("Sorry, you've reached the maximum attempts. The correct number was: " + generatedNumber);
             }
-
             rounds++;
 
             System.out.print("Do you want to play again? (yes/no): ");
